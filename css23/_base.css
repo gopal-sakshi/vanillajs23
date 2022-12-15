@@ -1,0 +1,12 @@
+div[id*="title23"] {
+    color: red;
+    font-weight: 800;
+}
+
+/* 
+    id^="element_123"           Match elements that starts with given value
+    id$="wrapper_text"          Match elements that ends with given value
+    id*="123_wrapper"           Match elements that have an attribute containing a given value
+    
+    // so, all <div>s where 'id' contains 'title23' will have this style applied;
+*/

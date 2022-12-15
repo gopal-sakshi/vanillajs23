@@ -1,0 +1,8 @@
+#div01_id {
+    border: 1px dotted rgb(233, 169, 169);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
+}

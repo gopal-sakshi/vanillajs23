@@ -1,0 +1,10 @@
+#div02_id {
+    border: 1px dotted rgb(193, 233, 129);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    font-size: large;
+    font-family: cursive;
+}
