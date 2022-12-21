@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="./css23/_base.css" />
         <link rel="stylesheet" type="text/css" href="./css23/01.css" />
         <link rel="stylesheet" type="text/css" href="./css23/02.css" />
+        <base href="/">
     </head>
     <body>
         <script src="./js23/01.js"></script>
@@ -21,7 +22,14 @@
         <popup-info23 
             img="resources/elephant.jpeg" 
             data-text23="edo data-text attribute">
-        </popup-info23>        
+        </popup-info23>
         <script src="./js23/05.js"></script>
+        </br>
+
+        <!-- using web workers (use live server... loading index.html directly FAILS) -->
+        <button id="getFibonacci">print fibonacci</button></br>
+        <button id="cancelFibonacci">cancelFibonacci</button></br>        
+        <div id="fibonacciResults"></div>
+        <script src="./js23/06.js"></script>
     </body>
 </html>
