@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>using XMLHttpRequest</title>
+    </head>
+    <body>
+        <div>
+            <h4>response from API call</h4>
+            <div id="response23"></div>
+        </div>
+        <script>
+            // XMLHttpRequest = 2006-10 story...
+            // now people shifted to fetchAPI --> it works with vanillaJS
+            var reqeust23 = new XMLHttpRequest();
+            const success = () => { console.log('api call success'); }
+            const error = () => { console.log('api call failed'); }
+            reqeust23.onload = success;
+            reqeust23.onerror = error;
+            reqeust23.open('GET', 'https://api.github.com/users/gopal-sakshi');
+            reqeust23.send();
+            reqeust23.onreadystatechange = function () {
+                if (reqeust23.readyState === 4 && reqeust23.status == "200") {
+                    document.getElementById("response23").innerHTML = reqeust23.responseText;
+                }
+            }
+        </script>
+    </body>
+</html>

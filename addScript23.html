@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>addScript23</title>
+    </head>
+    <body>
+        <button onclick="addScript()">addScript</button>
+        <script>
+            const addScript = () => {
+                console.log('now by button click --> we added this script');
+                console.log('it can also be done by apiCall; setTimeout');
+                var script23 = document.createElement('script');
+                script23.type = "text/javascript";
+                script23.setAttribute("charset", "UTF-8")
+                script23.src = `./addScript23.js`;
+                script23.innerHTML = null;
+                document.body.appendChild(script23);
+            }
+        </script>
+    </body>
+</html>

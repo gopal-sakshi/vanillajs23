@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>location Obj</title>
+    </head>
+    <body>
+        <button onclick="assign()">assign</button>
+        <button onclick="query23()">query23</button>
+        <script>
+            const assign = () => { window.location.assign("https://www.w3schools.com"); }
+            const query23 = () => { window.location.search = `club=RMA&position=Midfield`}
+            console.log('host =======>', window.location.host);
+            console.log('hostname ===>', window.location.hostname);      // without port
+            console.log('queryParam =>', window.location.search);
+        </script>
+    </body>
+</html>
+
+<!--
+
+    https://www.w3schools.com/jsref/obj_navigator.asp
+    https://www.w3schools.com/jsref/obj_location.asp
+
+    w.location.hash =======> gets the hashed part of current Web Page
+    w.location.replace ====> same as assign; but history not saved... backbutton wont work
+    w.location.reload =====> same doc gets reloaded... 
+        assign/replace = new document gets loaded
+    
+    w.location.search =====> get/set the query params
+
+
+
+-->

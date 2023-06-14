@@ -1,0 +1,32 @@
+AJAX
+
+Before AJAX (Asynchronous JavaScript and XML) concept was introduced, 
+- to update the portion of a page
+- browsers used to make a request for a "full web page" to the server
+- after the request was received by the server, 
+    it used to create & return a page to the browser as a response. 
+- It means that even for a small change the page was loaded entirely. 
+- very very bad.
+
+AJAX came and changed the traditional way of updating the page. 
+With AJAX, Web applications were able to send & retrieve data from a server asynchronously 
+- in the background
+- without interfering with the display & behaviour of the existing page.
+- users dont need to do refresh/reload
+
+
+XMLHttpRequest
+- In 2006, WWW Constortium published a Working Draft specification for the XMLHttpRequest object. 
+- XMLHttpRequest object is used to retrieve data from a server asynchronously.
+- In the initial stages, XMLHttpRequest used to fetch XML data over HTTP hence the name. 
+- But today 
+    it can be used with protocols other than HTTP
+    it can fetch data not only in the form of XML but also JSON, HTML, plain text.
+------------------------------------------------------------------
+
+But now even XMLHttpRequest is kind of obsolete
+people shifted to fetch API
+
+https://medium.com/beginners-guide-to-mobile-web-development/the-fetch-api-2c962591f5c
+
+fetch vs XMLHttpRequest

@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>url search params</title>
+    </head>
+    <body>
+        <script>
+            const apiBase = `https://api.github.com/`;
+            // `https://api.github.com/search/users?q=location:pakistan+location:india`;
+            // `https://api.github.com/search/users?q=location:monaco`;
+
+            let url11 = new URL(`${apiBase}repos/gopal-sakshi/testing_backend/commits?page=3&per_page=14`);
+            let params11 = new URLSearchParams(url11.search);
+            console.log(params11.get('per_page'));
+            console.log(...params11.entries());
+        </script>
+    </body>
+</html>
