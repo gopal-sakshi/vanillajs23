@@ -1,0 +1,23 @@
+[
+    {
+        "default" : false,
+        "lang": "id-ID",
+        "localService": false,
+        "name": "Google Bahasa Indonesia",
+        "voiceURI": "Google Bahasa Indonesia"
+    },
+    {
+        "default" : false,
+        "lang": "en-GB",
+        "localService": false,
+        "name": "Google UK English Female",
+        "voiceURI": "Google UK English Female"
+    },
+    {
+        "default" : false,
+        "lang": "hi-IN",
+        "localService": false,
+        "name": "Google हिन्दी",
+        "voiceURI": "Google हिन्दी"
+    }
+]
