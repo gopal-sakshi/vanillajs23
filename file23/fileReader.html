@@ -1,0 +1,23 @@
+<html>
+    <head></head>
+    <body>
+        <div>
+
+            <!-- If you use without label, its always browse... with label use anything -->
+            <!-- <label for="files23" class="btn">browse23</label> -->
+            <button onclick="document.getElementById('files23').click()">console fileName</button>
+            <input id="files23" style="visibility:hidden;" type="file" onchange="showFile11(this)"><br>
+            
+            <!-- display text-->
+            <button onclick="document.getElementById('files24').click()">console fileContent</button>
+            <input id="files24" style="visibility:hidden;" type="file" onchange="readFile12(this)"><br>
+            
+            <!-- this is image upload -->
+            <button onclick="document.getElementById('files25').click()">show Image</button>
+            <input id='files25' type='file' accept='image/*' onchange='imgFile13(event)'><br>
+            <img id="image23" style="height:400px; width:400px;">
+            
+          </div>
+        <script type="text/javascript" src="./fileReader23.js"></script>   
+    </body>
+</html>
