@@ -9,10 +9,21 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
     </script>
+    <script src="application/javascript">
+        function button11 () { console.log("clicked button11"); }
+    </script>
+    <style>
+        .first-row23 {
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            min-height: 200px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="row">
+    <div class="row first-row23">
         <div class="col-sm-4 bg-primary">
             Half Width Content 1
         </div>
@@ -20,9 +31,11 @@
             Half Width Content 2
         </div>
         <div class="col-sm-4 bg-danger">
-            Half Width Content 3
+            <div style="display: inline;">ikkada, oka div element + kinda button untaayi</div>
+            <div><button (onclick)="button11()">click_cheyyi</button></div>
         </div>
     </div>
+    <br><br>
     <div class="row">
         <div class="col-sm-6 bg-warning">
             Half Width Content 4
@@ -31,7 +44,6 @@
             Half Width Content 5
         </div>
     </div>
-
 </body>
 
 </html>
