@@ -2,12 +2,15 @@ ServiceWorker
 - special type of WebWorker
 - ability to interact with the browser's fetch events
 - SWs intercept network requests and provide offline support and push notifications
-- Scope of SWs == Dedicated thread that acts as a proxy between the browser and the network
-    WW = Dedicated thread that shares the same global context as the main thread
-- Lifecycle ===	Registered and activated by the browser
-    WW = Created and terminated by JavaScript code
+- Scope 
+    scope of SWs        == Dedicated thread that acts as a proxy between the browser and the network
+    scope of WebWorkers = Dedicated thread that shares the same global context as the main thread
+- Lifecycle 
+    SWs         ===	Registered and activated by the browser
+    WebWorkers  = Created and terminated by JavaScript code
 
 https://www.dhiwise.com/post/web-workers-vs-service-workers-in-javascript
+
 ===================================================================
 4 main duties of SWs
 

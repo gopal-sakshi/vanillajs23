@@ -12,6 +12,13 @@
 
 # All CSS Grid Properties
 
+gap is same as grid-gap
+in CSS3, grid prefix is removed
+so, learn about --- only 3 properties
+    column-gap
+    row-gap
+    gap
+<!----------------------------------------------------------------------->
 
 column-gap	            Specifies the gap between the columns
 gap	                    A shorthand property for the <row-gap> and the <column-gap> properties
